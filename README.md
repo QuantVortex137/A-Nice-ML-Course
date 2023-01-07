@@ -61,7 +61,7 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 
 ### Issues Solved
 
-Debido al continuo cambio de python, las actualizaciones de las librerías y dependencias, así ccomo de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
+Debido al continuo cambio de python, las actualizaciones de las librerías, dependencias, así como de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
 - Código fuente de "***Parte 1: Preprocesamiento de datos***" actualizado para Python 3.10.8:
 
 ~~~python
