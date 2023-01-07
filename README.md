@@ -64,13 +64,13 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 Debido al continuo cambio de python, las actualizaciones de las librerías y dependencias, así ccomo de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
 - Código fuente de "***Parte 1: Preprocesamiento de datos***" actualizado:
 
-\````javascript
+~~~
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-\````
+~~~
 
 - Creación de un Environment apropiado de Python con Anaconda para el IDE Spyder: [Spyder FAQ, Cómo instalar paquetes de Python y que el editor los reconozca](https://docs.spyder-ide.org/5/faq.html#using-packages-installer).
 - Al crear el nuevo Enviironment para Spyder, se necesitaron instalar múltiples paquetes:
