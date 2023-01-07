@@ -121,4 +121,4 @@ x_test = sc_x.transform(x_test)
 
   Se pueden encontrar tutoriales de descarga usando Anaconda Prompt en [anaconda.org](https://anaconda.org/). 
   <kbd>conda install 'package_name'</kbd>
-- Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucion ado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
+- Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucionado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
