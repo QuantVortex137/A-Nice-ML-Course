@@ -65,11 +65,15 @@ Debido al continuo cambio de python, las actualizaciones de las librerías y dep
 - Código fuente de "***Parte 1: Preprocesamiento de datos***" actualizado:
 - Creación de un Environment apropiado de Python con Anaconda para el IDE Spyder: [Spyder FAQ, Cómo instalar paquetes de Python y que el editor los reconozca](https://docs.spyder-ide.org/5/faq.html#using-packages-installer).
 - Al crear el nuevo Enviironment para Spyder, se necesitaron instalar múltiples paquetes
-  - Scipy       - TensorFlow
-  - NumPy       - Keras
-  - Pandas      - PyTorch
-  - Matplotlib  - Theano
+  - SciPy
+  - NumPy
+  - Pandas
+  - Matplotlib
   - Sklearn
+  - TensorFlow
+  - Keras
+  - PyTorch
+  - Theano
 
   Se pueden encontrar tutoriales de descarga en [anaconda.org](https://anaconda.org/) usando Anaconda Prompt.
 - Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucionado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
