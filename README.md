@@ -64,12 +64,47 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 Debido al continuo cambio de python, las actualizaciones de las librerías y dependencias, así ccomo de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
 - Código fuente de "***Parte 1: Preprocesamiento de datos***" actualizado:
 
-~~~
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+~~~python
+import numpy as np # For mathematical operations
+import matplotlib.pyplot as plt # For plotting information
+import pandas as pd # For managing large data collections
+
+# Importing dataset from ML Datasets folder
+dataset = pd.read_csv('Data.csv')
+x = dataset.iloc[:, :-1].values
+y = dataset.iloc[:, 3].values
+
+# Unknown data (nan or NaN)
+from sklearn.impute import SimpleImputer
+imputer = SimpleImputer(missing_values = np.nan, strategy = "mean")
+imputer = imputer.fit(x[:, 1:3])
+x[:, 1:3] = imputer.transform(x[:, 1:3])
+
+# DATOS CATEGÓRICOS
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+
+labelencoder_x = LabelEncoder()
+x[:, 0] = labelencoder_x.fit_transform(x[:, 0])
+
+ct = ColumnTransformer(
+    [('one_hot_encoder', OneHotEncoder(categories='auto'), [0])],   
+    remainder='passthrough'                        
+)
+x = np.array(ct.fit_transform(x), dtype=np.float64)
+
+labelencoder_y = LabelEncoder()
+y = labelencoder_y.fit_transform(y)
+
+# DIVIDIR el dataset en conjunto de entrenamiento y conjunto de testing
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 0)
+
+# Escalado de variables
+from sklearn.preprocessing import StandardScaler
+sc_x = StandardScaler()
+x_train = sc_x.fit_transform(x_train)
+x_test = sc_x.transform(x_test)
 ~~~
 
 - Creación de un Environment apropiado de Python con Anaconda para el IDE Spyder: [Spyder FAQ, Cómo instalar paquetes de Python y que el editor los reconozca](https://docs.spyder-ide.org/5/faq.html#using-packages-installer).
