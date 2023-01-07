@@ -59,7 +59,7 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 - Personas que no están satisfechas con su trabajo y quieren convertirse en Data Scientist.
 - Cualquier persona que quiera añadir valor a su empresa con el poder del Machine Learning.
 
-###Issues
+### Issues
 
 Debido al continuo cambio de python, las actualizaciones de las librerías y dependencias, así ccomo de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
 - Código fuente de "***Parte 1: Preprocesamiento de datos***" actualizado:
