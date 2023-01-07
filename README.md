@@ -70,5 +70,5 @@ Debido al continuo cambio de python, las actualizaciones de las librerías y dep
   - Pandas      - PyTorch
   - Matplotlib  - Theano
   - Sklearn
- Se pueden encontrar tutoriales de descarga en [anaconda.org](https://anaconda.org/) usando Anaconda Prompt.
+Se pueden encontrar tutoriales de descarga en [anaconda.org](https://anaconda.org/) usando Anaconda Prompt.
 - Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucionado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
