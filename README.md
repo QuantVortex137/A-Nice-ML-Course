@@ -108,7 +108,7 @@ x_test = sc_x.transform(x_test)
 ~~~
 
 - Creación de un Environment apropiado de Python con Anaconda para el IDE Spyder: [Spyder FAQ, Cómo instalar paquetes de Python y que el editor los reconozca](https://docs.spyder-ide.org/5/faq.html#using-packages-installer).
-- Al crear el nuevo Enviironment para Spyder, se necesitaron instalar múltiples paquetes:
+- Al crear el nuevo Environment para Spyder, se necesitaron instalar múltiples paquetes:
   - SciPy
   - NumPy
   - Pandas
@@ -119,5 +119,6 @@ x_test = sc_x.transform(x_test)
   - PyTorch
   - Theano
 
-  Se pueden encontrar tutoriales de descarga en [anaconda.org](https://anaconda.org/) usando Anaconda Prompt.
-- Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucionado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
+  Se pueden encontrar tutoriales de descarga usando Anaconda Prompt en [anaconda.org](https://anaconda.org/). 
+  <kbd>conda install 'package_name'</kbd>
+- Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucion ado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
