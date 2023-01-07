@@ -59,8 +59,9 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 - Personas que no están satisfechas con su trabajo y quieren convertirse en Data Scientist.
 - Cualquier persona que quiera añadir valor a su empresa con el poder del Machine Learning.
 
-### Issues
+### Issues Solved
 
 Debido al continuo cambio de python, las actualizaciones de las librerías y dependencias, así ccomo de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
 - Código fuente de "***Parte 1: Preprocesamiento de datos***" actualizado:
+- Creación de un Environment apropiado de Python con Anaconda para el IDE Spyder: [Spyder FAQ, Cómo instalar paquetes de Python y que el editor los reconozca](https://docs.spyder-ide.org/5/faq.html#using-packages-installer)
 - Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucionado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474)
