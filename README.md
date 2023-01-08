@@ -61,7 +61,7 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 
 ### Relevant GitHub Repositories
 
-- [Statsmodels](https://github.com/statsmodels/statsmodels) is a Python 3.8, 3.9 and 3.10 library that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
+- [Statsmodels](https://github.com/statsmodels/statsmodels) es una biblioteca de Python 3.8, 3.9 y 3.10 que proporciona clases y funciones para la estimación de muchos modelos estadísticos diferentes, así como para realizar pruebas estadísticas y exploración de datos estadísticos. Para su instalación escriba <kbd>conda install -c conda-forge statsmodels</kbd> en Anaconda Prompt dentro del ambiente deseado.
 
 ### Solved Issues
 
@@ -125,4 +125,5 @@ x_test = sc_x.transform(x_test)
 
   Se pueden encontrar tutoriales de descarga usando Anaconda Prompt en [anaconda.org](https://anaconda.org/). 
   <kbd>conda install 'package_name'</kbd>
+  <kbd>conda activate spyder-env</kbd>
 - Problema con el uso de la librería scikit-learn para Python 3.8 y Python 3.9 solucionado desde Anaconda Prompt: [Jezdez Solution](https://github.com/conda/conda/issues/11795#issuecomment-1335666474).
