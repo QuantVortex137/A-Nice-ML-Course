@@ -59,6 +59,10 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 - Personas que no están satisfechas con su trabajo y quieren convertirse en Data Scientist.
 - Cualquier persona que quiera añadir valor a su empresa con el poder del Machine Learning.
 
+### Relevant GitHub Repositories
+
+- [Statsmodels](https://github.com/statsmodels/statsmodels) is a Python 3.8, 3.9 and 3.10 library that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
+
 ### Solved Issues
 
 Debido al continuo cambio de python, las actualizaciones de las librerías, dependencias, así como de anaconda, pueden existir ciertos problemas con los códigos y/o librerías. La lista de problemas se actualizará con el tiempo.
