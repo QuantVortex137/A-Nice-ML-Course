@@ -124,15 +124,15 @@ x_test = sc_x.transform(x_test)
 
 - Creación de un Environment apropiado de Python con Anaconda para el IDE Spyder: [Spyder FAQ, Cómo instalar paquetes de Python y que el editor los reconozca](https://docs.spyder-ide.org/5/faq.html#using-packages-installer).
 - Al crear el nuevo Environment para Spyder, se necesitaron instalar múltiples paquetes:
-  - SciPy
-  - NumPy
-  - Pandas
-  - Matplotlib
-  - Sklearn
-  - TensorFlow
-  - Keras
-  - PyTorch
-  - Theano
+  - SciPy <kbd>conda install scipy</kbd>
+  - NumPy <kbd>conda install numpy</kbd>
+  - Pandas <kbd>conda install pandas</kbd>
+  - Matplotlib <kbd>conda install matplotlib</kbd>
+  - Sklearn <kbd>conda install spyder-kernels scikit-learn -y</kbd> (para instalar sklearn para Spyder)
+  - TensorFlow <kbd>conda install tensorflow</kbd>
+  - Keras (se instala junto a TensorFlow)
+  - PyTorch <kbd>conda install torch</kbd>
+  - Theano <kbd>conda install theano</kbd>
 
   Se pueden encontrar tutoriales de descarga usando Anaconda Prompt en [anaconda.org](https://anaconda.org/). 
   <kbd>conda install 'package_name'</kbd>
