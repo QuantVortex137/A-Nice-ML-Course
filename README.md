@@ -59,6 +59,17 @@ Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su pre
 - Personas que no están satisfechas con su trabajo y quieren convertirse en Data Scientist.
 - Cualquier persona que quiera añadir valor a su empresa con el poder del Machine Learning.
 
+### Pequeña Guía para crear nuevos Environments e instalarle paquetes usando Anaconda Prompt (solo para Windows)
+
+Dando por hecha la instalación de Anaconda o Miniconda en su sistema operativo, y que se cuenta con alguna versión superior o igual a Python 3.6, siga los pasos:
+1. Abra Anaconda Prompt desde la barra de búsqueda de Windows o desde el acceso directo creado en la carpeta de Anaconda.
+2. En Anaconda Prompt podrá ver que al principio de cada entrada se lee <kbd>base</kbd>, lo cual indica que se está usando el ambiente predeterminado.
+3. Para crear un ambiente nuevo use el comando <kbd>conda create -n "nombre-del-nuevo-envorinment" -y<kbd>, donde cada espacio debe ser reemplazdo por un guion.
+4. Para activar su nuevo ambiente siga la nomenclatura <kbd>conda activate "nombre-del-nuevo-envorinment"</kbd>, en este paso se cambiará <kbd>base</kbd> por <kbd>"nombre-del-nuevo-envorinment"</kbd> por cada entrada en la consola.
+5. Ahora, para instalar paquetes para su versión de Python, solo es necesario escribir el comando <kbd>conda install "nombre-del-paquete"</kbd>. Este comando puede variar según el paquete que se instale, es necesario leer la documentación sobre la instalación de cada paquete en su página oficial, o incluso en su reopsitorio de GitHub.
+6. Para comprobar la correcta instalación de un paquete se escribe <kbd>python</kbd> para usar el intérprete de Python en la consola, posteriormente se importa la librería <kbd>import "librería"</kbd>, si el comando se ejecuta correctamente la instalación fue exitosa. Para revisar la versión del paquete se introduce el comando <kbd>"nombre-del-paquete".__version__</kbd> (nótese que se escriben dos guiones bajos antes y después de "version").
+7. Si lo que se desea es actualizar alguna versión de un paquete se escribe <kbd>conda update "nombre-del-paquete"</kbd>
+
 ### Relevant GitHub Repositories
 
 - [Statsmodels](https://github.com/statsmodels/statsmodels) es una biblioteca de Python 3.8, 3.9 y 3.10 que proporciona clases y funciones para la estimación de muchos modelos estadísticos diferentes, así como para realizar pruebas estadísticas y exploración de datos estadísticos. Para su instalación escriba <kbd>conda install -c conda-forge statsmodels</kbd> en Anaconda Prompt dentro del ambiente deseado.
