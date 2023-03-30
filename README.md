@@ -3,11 +3,9 @@
 ### Traducido al español por [Juan Gabriel Gomila Salas](https://www.udemy.com/user/juangabriel2)
 
 
-¿Estás interesado en conocer a fondo el mundo del Machine Learning? Entonces este curso está diseñado especialmente para ti!!
-
 Este curso ha sido diseñado por Data Scientists profesionales para compartir nuestro conocimiento y ayudarte a aprender la teoría compleja, los algoritmos y librerías de programación de un modo fácil y sencillo.
 
-En él te guiaremos paso a paso en el mundo del Machine Learning. Con cada clase desarrollarás nuevas habilidades y mejorarás tus conocimientos de este complicado y lucrativa sub rama del Data Science.
+En él te guiaremos paso a paso en el mundo del Machine Learning. Con cada clase desarrollarás nuevas habilidades y mejorarás tus conocimientos de esta complicada y lucrativa sub rama del Data Science.
 
 ### Temario del curso
 
@@ -24,11 +22,7 @@ Este curso es divertido y ameno pero al mismo tiempo todo un reto pues tenemos m
 - Parte 9 - Reducción de la dimensión: ACP, LDA, Kernel ACP
 - Parte 10 - Selección de Modelos & Boosting: k-fold Cross Validation, Ajuste de Parámetros, Grid Search, XGBoost
 
-Además, el curso está repleto de ejercicios prácticos basados en ejemplos de la vida real, de modo que no solo aprenderás teoría, si no también pondrás en práctica tus propios modelos con ejemplos guiados.
-
-Y como bonus, este curso incluye todo el código en Python y R para que lo descargues y uses en tus propios proyectos.
-
-Puedes apuntarte al curso de Machine Learning con un descuento del 90% de su precio original [desde aquí](https://www.udemy.com/draft/2241862/?couponCode=GITHUB_PROMO_JB)
+El repositorio tiene archivos .csv para aplicar los códigos correpondientes. 
 
 ### Lo que aprenderás
 
